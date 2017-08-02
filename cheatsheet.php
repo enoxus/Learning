@@ -18,19 +18,39 @@ $arr = [
     ],
 
     'audi' => [
-        'car 1',
-        'car 2',
-        'car 3',
-        'car 4',
+        'car 1q',
+        'car 2xz',
+        'car 3g',
+        'car h4',
     ],
 
     'merc' => [
-        'car 1',
-        'car 2',
-        'car 3',
-        'car 4',
-    ],
+        'cbar 1',
+        'a',
+        'cadr 3',
+        'cars 4',
+    ]
 ];
+
+$var1 = $_POST["type"];
+
+switch($var1) {
+    case "bmw" :
+        for ($i = 0; $i <= 4; $i ++) {
+            echo $arr["bmw"][$i]."<br>";
+        }
+        break;
+    case "audi" :
+        for ($i = 0; $i <= 4; $i ++) {
+            echo $arr["audi"][$i]."<br>";
+        }
+        break;
+    case "merc" :
+        for ($i = 0; $i <= 4; $i ++) {
+            echo $arr["merc"][$i]."<br>";
+        }
+        break;
+}
 
 // get data from post
 
