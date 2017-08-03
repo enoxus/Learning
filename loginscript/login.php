@@ -21,7 +21,7 @@ require "database.php";
                 $message = 'Sorry credentials are incorrect.';
             }
         } else {
-            $message = 'Sorry your email addres is invalid.';
+            $message = 'Sorry your email address is invalid.';
         }
     } else {
         if (!empty($_POST)){
