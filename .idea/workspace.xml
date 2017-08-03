@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a25a3f85-3b9f-424e-ad57-f24186946c33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loginscript/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loginscript/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loginscript/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loginscript/logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loginscript/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cheatsheet.php" afterPath="$PROJECT_DIR$/cheatsheet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginscript/login.php" afterPath="$PROJECT_DIR$/loginscript/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginscript/register.php" afterPath="$PROJECT_DIR$/loginscript/register.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,29 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginscript/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="392">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="28" selection-end-column="9" />
               <folding>
-                <marker date="1501704855915" expanded="true" signature="153:209" ph="SELECT id,em... users" />
-                <marker date="1501704855915" expanded="true" signature="159:194" ph="select id,em... users" />
+                <marker date="1501785195647" expanded="true" signature="306:362" ph="SELECT id,em... users" />
+                <marker date="1501785195647" expanded="true" signature="1056:1148" ph="..." />
+                <marker date="1501785195647" expanded="true" signature="1063:1107" ph="..." />
+                <marker date="1501785195647" expanded="true" signature="1114:1148" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loginscript/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="248">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
-                <marker date="1501704786249" expanded="true" signature="138:200" ph="INSERT INTO users... " />
-                <marker date="1501704786249" expanded="true" signature="532:630" ph="..." />
-                <marker date="1501704786249" expanded="true" signature="539:586" ph="..." />
-                <marker date="1501704786249" expanded="true" signature="593:630" ph="..." />
+                <marker date="1501785232784" expanded="true" signature="282:344" ph="INSERT INTO users... " />
+                <marker date="1501785232784" expanded="true" signature="878:976" ph="..." />
+                <marker date="1501785232784" expanded="true" signature="885:932" ph="..." />
+                <marker date="1501785232784" expanded="true" signature="939:976" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,8 +87,8 @@
         <option value="$PROJECT_DIR$/loginscript/database.php" />
         <option value="$PROJECT_DIR$/loginscript/index.php" />
         <option value="$PROJECT_DIR$/loginscript/logout.php" />
-        <option value="$PROJECT_DIR$/loginscript/register.php" />
         <option value="$PROJECT_DIR$/loginscript/login.php" />
+        <option value="$PROJECT_DIR$/loginscript/register.php" />
       </list>
     </option>
   </component>
@@ -173,12 +169,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501612273163</updated>
       <workItem from="1501612276710" duration="5271000" />
-      <workItem from="1501696421229" duration="8214000" />
+      <workItem from="1501696421229" duration="10847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13485000" />
+    <option name="totallyTimeSpent" value="16118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="102" y="24" width="1537" height="912" extended-state="6" />
@@ -191,7 +187,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33082706" sideWeight="0.49771988" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33082706" sideWeight="0.49771988" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -210,7 +206,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -254,19 +252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginscript/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1501704786249" expanded="true" signature="138:200" ph="INSERT INTO users... " />
-            <marker date="1501704786249" expanded="true" signature="532:630" ph="..." />
-            <marker date="1501704786249" expanded="true" signature="539:586" ph="..." />
-            <marker date="1501704786249" expanded="true" signature="593:630" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginscript/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -285,11 +270,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loginscript/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="392">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="28" selection-end-column="9" />
           <folding>
-            <marker date="1501704855915" expanded="true" signature="153:209" ph="SELECT id,em... users" />
-            <marker date="1501704855915" expanded="true" signature="159:194" ph="select id,em... users" />
+            <marker date="1501785195647" expanded="true" signature="306:362" ph="SELECT id,em... users" />
+            <marker date="1501785195647" expanded="true" signature="1056:1148" ph="..." />
+            <marker date="1501785195647" expanded="true" signature="1063:1107" ph="..." />
+            <marker date="1501785195647" expanded="true" signature="1114:1148" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginscript/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <marker date="1501785232784" expanded="true" signature="282:344" ph="INSERT INTO users... " />
+            <marker date="1501785232784" expanded="true" signature="878:976" ph="..." />
+            <marker date="1501785232784" expanded="true" signature="885:932" ph="..." />
+            <marker date="1501785232784" expanded="true" signature="939:976" ph="..." />
           </folding>
         </state>
       </provider>

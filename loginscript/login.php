@@ -2,22 +2,30 @@
 session_start();
 
 require "database.php";
-
-
     if ( !empty($_POST['email']) && !empty($_POST['password']) ) {
+        $email = $_POST['email'];
+        $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
-        $records = $conn->prepare('SELECT id,email,password FROM users WHERE email = :email');
-        $records->bindParam(':email', $_POST["email"]);
-        $records->execute();
-        $results = $records->fetch(PDO::FETCH_ASSOC);
+        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $records = $conn->prepare('SELECT id,email,password FROM users WHERE email = :email');
+            $records->bindParam(':email', $email);
+            $records->execute();
+            $results = $records->fetch(PDO::FETCH_ASSOC);
 
-        $message = '';
+            $message = '';
 
-        if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
-            $_SESSION['user_id'] = $results['id'];
-            header("Location: index.php");
+            if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
+                $_SESSION['user_id'] = $results['id'];
+                header("Location: index.php");
+            } else {
+                $message = 'Sorry credentials are incorrect.';
+            }
         } else {
-            $message = 'Sorry credentials are incorrect.';
+            $message = 'Sorry your email addres is invalid.';
+        }
+    } else {
+        if (!empty($_POST)){
+            $message = "Sorry, you've left some fields empty.";
         }
     }
 ?>

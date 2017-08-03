@@ -6,16 +6,27 @@ require "database.php";
 $message = "";
 
 if (!empty($_POST['email']) && !empty($_POST['password'])) {
-    $sql = "INSERT INTO users (email, password) VALUES (:email, :password)";
-    $stmt = $conn->prepare($sql);
+    $email = $_POST['email'];
+    $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
-    $stmt->bindparam(":email", $_POST["email"]);
-    $stmt->bindparam(":password", password_hash($_POST["password"], PASSWORD_BCRYPT));
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $sql = "INSERT INTO users (email, password) VALUES (:email, :password)";
+        $stmt = $conn->prepare($sql);
 
-    if ($stmt->execute()) {
-        $message = "Successfully created user.";
+        $stmt->bindparam(":email", $email);
+        $stmt->bindparam(":password", password_hash($_POST["password"], PASSWORD_BCRYPT));
+
+        if ($stmt->execute()) {
+            $message = "Successfully created user.";
+        } else {
+            $message = "Error whilst creating user.";
+        }
     } else {
-        $message = "Error whilst creating user.";
+        $message = "Sorry, your email address is invalid.";
+    }
+} else {
+    if (!empty($_POST)){
+        $message = "Sorry, you've left some fields empty.";
     }
 }
 ?>
